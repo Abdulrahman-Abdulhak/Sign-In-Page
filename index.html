@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="sing in, sign up, somewebsite">
+    <meta name="description" content="Sign up with our website somewebsite.com">
+
+    <title>Sign In - somewebsite</title>
+
+    <script src="https://kit.fontawesome.com/2fe17b2fa2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main-style.css">
+    
+    <script src="all-script.js" defer></script>
+</head>
+<body>
+    
+    <section class="full-screen-container" aria-labelledby="#title" aria-describedby="#description">
+        
+        <div class="sign-in-container container">
+
+            <hgroup>
+                <h1 id="title">Sign In</h1>
+                <h2 id="description">sign in now for free</h2>
+            </hgroup>
+            <form action="path.html">
+            
+                <fieldset>
+
+                    <input type="text" name="name" id="name" required placeholder="e.g. Abdulrahman Abdulhak">
+                    <label for="name">Full Name</label>
+                    <span class="icon">
+                        <i class="fa-solid fa-user-pen"></i>
+                    </span>
+                
+                </fieldset>
+                <fieldset>
+
+                    <input type="text" name="username" id="username" required placeholder="e.g. abood123">
+                    <label for="username">Username</label>
+                    <span class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                
+                </fieldset>
+                <fieldset>
+
+                    <input type="email" name="email" id="email" required placeholder="e.g. something@example.com">
+                    <label for="email">Email Address</label>
+                    <span class="icon">
+                        <i class="fa-solid fa-at"></i>
+                    </span>
+                
+                </fieldset>
+                <fieldset>
+
+                    <input type="password" name="password" id="password" required placeholder="create a strong and uniqe password.">
+                    <label for="password">Create a Password</label>
+                    <span class="icon password-icon">
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-solid fa-eye active"></i>
+                        <i class="fa-solid fa-eye-slash"></i>
+                    </span>
+                
+                </fieldset>
+                <fieldset>
+
+                    <input type="password" name="repassword" id="repassword" required placeholder="re-type the same strong and uniqe password.">
+                    <label for="repassword">Confirm Password</label>
+                    <span class="icon password-icon">
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-solid fa-eye active"></i>
+                        <i class="fa-solid fa-eye-slash"></i>
+                    </span>
+                
+                </fieldset>
+
+                <button class="submit-btn btn" type="submit">submit</button>
+
+            </form>
+
+        </div>
+        
+    </section>
+
+</body>
+</html>
