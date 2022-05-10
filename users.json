@@ -1,0 +1,37 @@
+[
+    {
+        "username" : "abood",
+        "id" : 1,
+        "full-name" : "Abdulrahman Abdulhak",
+        "email" : "bdalrhmanbdalhq@gmail.com",
+        "password" : "1234567890"
+    },
+    {
+        "username" : "big_ti5",
+        "id" : 2,
+        "full-name" : "Haidar",
+        "email" : "something1@example.com",
+        "password" : "0987654321"
+    },
+    {
+        "username" : "admin",
+        "id" : 3,
+        "full-name" : "Mohammed",
+        "email" : "something2@example.com",
+        "password" : "asdfghjkl"
+    },
+    {
+        "username" : "someone",
+        "id" : 4,
+        "full-name" : "Someone",
+        "email" : "something3@example.com",
+        "password" : "qazxcvbnm"
+    },
+    {
+        "username" : "someone11",
+        "id" : 5,
+        "full-name" : "Another One",
+        "email" : "something4@example.com",
+        "password" : "qwertyuiop"
+    }
+]
